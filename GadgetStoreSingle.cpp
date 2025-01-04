@@ -1,6 +1,8 @@
-/*
- * Required Libraries for the Gadget Store Management System
- */
+// Project Made by: Augusto, Tagaan, Ribo
+// BSCPE 2-G
+// Gadget Store Management System
+
+// Required Libraries
 
 // iostream: Provides input/output stream functionality (cin, cout) for user interaction
 #include <iostream>
