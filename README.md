@@ -23,7 +23,7 @@ A C++ console application for managing a gadget store inventory. This system all
 ## Building and Running
 
 ### Using VS Code
-1. Download both files (`GadgetStoreSingle.cpp` and `README.md`)
+1. Download both files (`GadgetStore.cpp` and `GSoutput`)
 2. Open the terminal (Ctrl + ~)
 3. Navigate to the program's directory:
    ```bash
@@ -31,20 +31,21 @@ A C++ console application for managing a gadget store inventory. This system all
    ```
 4. Compile the program:
    ```bash
-   g++ -o GadgetStoreSingle GadgetStoreSingle.cpp
+   g++ -o GSoutput GadgetStore.cpp
    ```
 5. Run the program:
    ```bash
-   ./GadgetStoreSingle
+   ./GSoutput
    ```
 
 ### Using Embarcadero Dev C++
-1. Download the `GadgetStoreSingle.cpp` file
+1. Download the `GadgetStore.cpp` file
 2. Open it in the IDE
 3. Compile and run the program directly from the interface
 
 ## Project Structure
-- `GadgetStoreSingle.cpp`: Main source file containing all classes and functionality
+- `GadgetStore.cpp`: Main source file containing all classes and functionality
+- `GSoutput`: Responsible for program stdout
   - `Gadget`: Class for individual gadget items
   - `InputValidator`: Class for input validation
   - `ErrorMessages`: Class for centralized error message management
