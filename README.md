@@ -59,10 +59,11 @@ A C++ console application for managing a gadget store inventory. This system all
 - Quantities: Integer range validation
 
 ## Authors
+BSCPE 2-G
 - Augusto
 - Tagaan
 - Ribo
-BSCPE 2-G
+
 
 ## Support
 If you encounter any issues while running the program, you can:
