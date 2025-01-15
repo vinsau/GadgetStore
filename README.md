@@ -44,8 +44,8 @@ A C++ console application for managing a gadget store inventory. This system all
 3. Compile and run the program directly from the interface
 
 ## Project Structure
-- `GadgetStore.cpp`: Main source file containing all classes and functionality
 - `GSoutput`: Responsible for program stdout
+- `GadgetStore.cpp`: Main source file containing all classes and functionality
   - `Gadget`: Class for individual gadget items
   - `InputValidator`: Class for input validation
   - `ErrorMessages`: Class for centralized error message management
